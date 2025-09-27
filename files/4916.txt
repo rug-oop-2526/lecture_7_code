@@ -1,5 +1,0 @@
-      à = a grave
-      è = e grave
-      ì = i grave
-      ò = o grave
-      ù = u grave

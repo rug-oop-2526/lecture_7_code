@@ -1,3 +1,0 @@
-      È = E grave
-      Ë = E uml
-      Ï = I uml
