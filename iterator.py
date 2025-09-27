@@ -8,8 +8,8 @@ class FolderReaderIterator:
         self._folder_path = folder_path
         self._file_extension = file_extension
 
-    def __iter__(self):
-        pass  # your code and type hints here
+    def __iter__(self) -> FolderReaderIterator:
+        pass  # your code here
 
     def __next__(self):
         pass  # your code and type hints here
