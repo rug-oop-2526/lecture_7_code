@@ -1,0 +1,5 @@
+      ä = a uml
+      ë = e uml
+      ï = i uml
+      ö = o uml
+      ü = u uml
