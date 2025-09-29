@@ -31,10 +31,15 @@ class SinglyLinkedList:
         self._last = node
 
     def __iter__(self) -> SinglyLinkedList:
-        pass  # your code here
+        self._current_node = self._root
+        return self
 
-    def __next__(self):
-        pass  # your code and type hints here
+    def __next__(self) -> Node:
+        if self._current_node is None:
+            raise StopIteration
+        previous_node = self._current_node
+        self._current_node = self._current_node.next_element
+        return previous_node
 
 
 if __name__ == "__main__":
